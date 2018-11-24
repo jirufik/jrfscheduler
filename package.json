@@ -1,0 +1,40 @@
+{
+  "name": "jrfscheduler",
+  "version": "1.0.0",
+  "description": "Async/await scheduler.",
+  "main": "jrfscheduler.js",
+  "scripts": {
+    "test": "node ./tests/tests.js"
+  },
+  "keywords": [
+    "scheduler",
+    "schedule",
+    "task",
+    "cron",
+    "time",
+    "period",
+    "jrf"
+  ],
+  "author": {
+    "name": "jirufik",
+    "url": "https://github.com/jrfscheduler"
+  },
+  "maintainers": [
+    {
+      "name": "jirufik",
+      "url": "https://github.com/jrfscheduler"
+    }
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "dependencies": {
+    "jrftimer": "^1.0.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jirufik/jrfscheduler"
+  }
+}
